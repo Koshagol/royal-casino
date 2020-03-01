@@ -1,3 +1,6 @@
 import { CoreController } from './CoreController';
-
-console.log(CoreController.spin());
+let core = new CoreController();
+let spinButton = document.getElementById('spinbtn');
+spinButton.addEventListener("click", function () {
+    core.spin();
+});

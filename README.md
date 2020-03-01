@@ -32,5 +32,4 @@ npm run build.all
 # Юнит тесты:
 npm run test
 ```
-## Contributions
 Такие дела.

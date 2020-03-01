@@ -56,7 +56,7 @@ export class CoreController {
         let spinPrice = this.getQuests()[1].questValue;
         this.consumption += spinPrice;
         this.questProgress();
-        return spinResult;
+        return arr;
     }
 
   questProgress() {

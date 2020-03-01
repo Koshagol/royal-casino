@@ -44,12 +44,11 @@ export class CoreController {
         this.spins++;
         const spinResult = this.getSpinResult().matrix;
         let arr = this.transpose(spinResult, 4);
-
+        console.log(arr);
         arr.forEach(function(index: any, item: any, array: any) {
             let currencyElem = array[item];
             if (this.compareArr(currencyElem) == true) {
                 this.matches++;
-                console.log(this.matches);
             }
         }.bind(this));
 

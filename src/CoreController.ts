@@ -20,7 +20,7 @@ export class CoreController {
                       if (equal(current, prev))
                           return current;
                       else
-                          throw new Error('1');
+                          throw new Error('Error.');
                   });
 
               test = true;
